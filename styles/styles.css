@@ -1,0 +1,75 @@
+/* Style for <body> */
+body {
+  background-color: #f7f7f7;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Style for <h1> headings */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: #333;
+  line-height: 1.5em;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Style for <li> elements */
+li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+li:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for buttons */
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #4caf50;
+}
